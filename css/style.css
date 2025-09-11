@@ -24,4 +24,55 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #121212;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 22.5rem;
+  min-height: 4.25rem;
+  padding: 0 1rem;
+  background-color: #1a1a1a;
+  box-sizing: border-box;
+}
+
+nav {
+  display: none;
+}
+
+.logotype-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.header-title {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 1.9rem;
+}
+
+.menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.button-menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.6rem;
 }
