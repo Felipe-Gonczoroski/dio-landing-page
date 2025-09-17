@@ -4,7 +4,6 @@
       format("woff2"),
     url("/assets/fonts/montserrat/montserrat-variablefont_wght-webfont.woff")
       format("woff");
-  font-weight: 100 900;
   font-style: normal;
 }
 
@@ -20,6 +19,8 @@
 
 html,
 body {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,6 +32,13 @@ h1,
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 header {
@@ -49,6 +57,33 @@ nav {
   display: none;
 }
 
+p {
+  margin: 0;
+  color: #bfbfbf;
+}
+
+p.card {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ffffff;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.small-mb {
+  margin-bottom: 0.5rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.large-mb {
+  margin-bottom: 2.5rem;
+}
+
 .logotype-container {
   display: flex;
   flex-direction: row;
@@ -63,16 +98,143 @@ nav {
 .header-title {
   font-size: 2rem;
   color: #ffffff;
-  margin-top: 1.9rem;
+  margin-top: 0.5rem;
 }
 
 .menu-icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 .button-menu {
   background-color: transparent;
   border: none;
   cursor: pointer;
   margin-top: 0.6rem;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
+  padding: 1.7rem;
+  box-sizing: border-box;
+}
+
+.building-model-img {
+  width: 104%;
+  height: auto;
+}
+
+.section-hero-title {
+  max-width: 37.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  align-self: flex-start;
+  line-height: 2rem;
+  margin: 1.75rem 0 1rem 0;
+}
+
+.large-button-dark {
+  width: 21rem;
+  height: 3rem;
+  background-color: #121212;
+  border: 2px solid #262626;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.large-button-dark:hover {
+  background-color: #1e3a8a;
+}
+
+.large-button-dark:active {
+  background-color: #162e6a;
+}
+
+.large-button-light {
+  width: 21rem;
+  height: 3rem;
+  background-color: #1e3a8a;
+  border: 2px solid #1e3a8a;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.large-button-light:hover {
+  background-color: #121212;
+  border-color: #1e3a8a;
+}
+
+.large-button-light:active {
+  background-color: #262626;
+}
+
+.information-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 22rem;
+  height: 12rem;
+  gap: 1.5rem;
+  background-color: #121212;
+  margin-bottom: 11.7rem;
+}
+
+.information-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 18rem;
+  height: 6rem;
+  border: 2px solid #262626;
+  border-radius: 0.5rem;
+  background-color: #1a1a1a;
+  padding: 2rem 2rem 1.5rem;
+  box-sizing: border-box;
+  gap: 0.5rem;
+}
+
+.benefits-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 21.25rem;
+  min-height: 20rem;
+  padding: 1rem;
+  gap: 0.9rem;
+  box-sizing: border-box;
+  background-color: #141414;
+  border: 2px solid #262626;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 0.3rem 0.7rem #191919;
+}
+
+.benefits-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 40%;
+  text-align: center;
+  width: 9.6rem;
+  height: 9rem;
+  padding: 0.9rem;
+  gap: 0.7rem;
+  background-color: #1a1a1a;
+  border: 2px solid #262626;
+  border-radius: 0.6rem;
+  box-sizing: border-box;
+}
+
+.benefits-cards-icon-img {
+  width: 3rem;
+  height: 3rem;
 }
