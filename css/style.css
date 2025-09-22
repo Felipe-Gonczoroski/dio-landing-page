@@ -57,7 +57,12 @@ nav {
   display: none;
 }
 
+span {
+  color: #ffffff;
+}
+
 p {
+  display: inline-block;
   margin: 0;
   color: #bfbfbf;
 }
@@ -66,6 +71,24 @@ p.card {
   font-size: 0.9rem;
   margin: 0;
   color: #ffffff;
+}
+
+p.price {
+  font-size: 1.35rem;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+.small-mt {
+  margin-top: 0.5rem;
 }
 
 .mt {
@@ -144,7 +167,6 @@ p.card {
   border: 2px solid #262626;
   border-radius: 0.5rem;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .large-button-dark:hover {
@@ -162,7 +184,6 @@ p.card {
   border: 2px solid #1e3a8a;
   border-radius: 0.5rem;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .large-button-light:hover {
@@ -237,4 +258,157 @@ p.card {
 .benefits-cards-icon-img {
   width: 3rem;
   height: 3rem;
+}
+
+.divider {
+  width: 3.5rem;
+  height: 1.5rem;
+  margin-top: 3.5rem;
+  margin-left: 1.25rem;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.section-features {
+  width: 100%;
+  min-height: 60vh;
+  padding: 0 1.7rem 1.7rem 1.7rem;
+  box-sizing: border-box;
+}
+
+.section-features-title {
+  max-width: 37.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.propertie-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 1.65rem;
+  box-sizing: border-box;
+  border: 2px solid #262626;
+  border-radius: 1.5rem;
+  margin-top: 3.4rem;
+}
+
+.propertie-card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.85rem;
+}
+
+.propertie-card-title {
+  font-size: 1.4rem;
+  margin: 1.7rem 0 0.5rem;
+}
+
+.propertie-card-tags-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  gap: 0.45rem;
+}
+
+.propertie-card-icon-img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.propertie-card-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 2rem;
+  padding: 0.87rem;
+  gap: 0.75rem;
+  border: 2px solid #262626;
+  border-radius: 3.5rem;
+  box-sizing: border-box;
+}
+
+.propertie-card-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 0.5rem;
+}
+
+.propertie-card-price {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 0.25rem;
+}
+
+.propertie-card-button {
+  width: 100%;
+  height: 3rem;
+  background-color: #1e3a8a;
+  color: #ffffff;
+  border: 2px solid #1e3a8a;
+  border-radius: 0.5rem;
+}
+
+.propertie-card-button:hover {
+  background-color: #162e6a;
+  border: 2px solid #162e6a;
+}
+
+.propertie-card-button:active {
+  background-color: #121f4d;
+  border: 2px solid #121f4d;
+}
+
+.carousel-controls-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  gap: 2.7rem;
+  border-top: 2px solid #262626;
+  box-sizing: border-box;
+}
+
+.view-more-button {
+  width: 38%;
+  height: 3.5rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #262626;
+  border-radius: 0.65rem;
+}
+
+.view-more-button:hover {
+  background-color: #1f1f1f;
+}
+
+.carousel-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 55%;
+  height: 100%;
+  gap: 0.65rem;
+}
+
+.circle-button {
+  width: 3rem;
+  height: 3rem;
+  background-color: #1a1a1a;
+  border: 2px solid #262626;
+  border-radius: 50%;
 }
