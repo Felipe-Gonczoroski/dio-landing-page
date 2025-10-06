@@ -191,3 +191,20 @@ button {
   text-shadow: 3px 2px #33a8db;
   font-size: 2.5rem;
 }
+
+.professional-challenges {
+  width: 100%;
+  height: auto;
+  padding: 6.75rem 0;
+  border-bottom: 1px solid #33a8db;
+}
+
+.professional-challenges h2 {
+  max-width: 52rem;
+  text-transform: uppercase;
+  line-height: 2.4rem;
+}
+
+.professional-challenges p {
+  max-width: 54.5rem;
+}
