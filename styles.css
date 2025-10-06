@@ -20,6 +20,7 @@ button {
 
 body {
   background-color: #000000;
+  overflow-x: hidden;
 }
 
 header {
@@ -97,6 +98,10 @@ button {
   cursor: pointer;
 }
 
+.smaller-mt {
+  margin-top: 0.25rem;
+}
+
 .small-mt {
   margin-top: 0.5rem;
 }
@@ -115,6 +120,10 @@ button {
 
 .mb {
   margin-bottom: 1rem;
+}
+
+.large-mb {
+  margin-bottom: 1.25rem;
 }
 
 .banner {
